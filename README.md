@@ -1,3 +1,6 @@
-# Camera_LiDAR_fusion
+## Camera_LiDAR_fusion
 
-- preprocessing of sensor calibration for fusing two sensors
+- sensor calibration for two sensors(cam,LiDAR)
+
+1. rgb_pc_msgSaver.py => python code for subscribing two sensor msgs.
+2. colored_pointclouds_pub.py => python code for publishing colored pointcloud.
